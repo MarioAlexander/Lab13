@@ -20,7 +20,7 @@ namespace Lab13.Controllers
             List<Persona> personas = new List<Persona>();
             personas.Add(new Persona
             {
-                PersonalD = 1,
+                PersonaID = 1,
                 Nombre = "Juan",
                 Apellido = "Perez",
                 Direccion = "Av. Evergreen 123",
@@ -29,7 +29,7 @@ namespace Lab13.Controllers
             });
             personas.Add(new Persona
             {
-                PersonalD = 1,
+                PersonaID = 1,
                 Nombre = "Maria",
                 Apellido = "Salas",
                 Direccion = "Av. Progreso 325",
@@ -38,7 +38,7 @@ namespace Lab13.Controllers
             });
             personas.Add(new Persona
             {
-                PersonalD = 1,
+                PersonaID = 1,
                 Nombre = "Carlos",
                 Apellido = "Martinez",
                 Direccion = "Av. Los manzanos IBI",
@@ -47,6 +47,8 @@ namespace Lab13.Controllers
             });
             return View(personas);
         }
+
+
     }
 
 }
